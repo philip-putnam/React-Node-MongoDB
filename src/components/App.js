@@ -9,13 +9,11 @@ export default class App extends Component {
   };
 
   componentDidMount() {
-    console.log('did mount');
-    debugger;
+
   }
 
   componentWillUnmount() {
-    console.log('will Unmount');
-    debugger;
+    
   }
 
   render() {
