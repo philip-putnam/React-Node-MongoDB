@@ -4,7 +4,6 @@ import Header from './Header';
 import ContestPreview from './ContestPreview';
 import data from '../testData';
 
-
 export default class App extends Component {
   state = {
     pageHeader: 'Naming Contests',
