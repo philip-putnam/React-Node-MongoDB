@@ -8,6 +8,16 @@ export default class App extends Component {
     pageHeader: 'Naming Contests'
   };
 
+  componentDidMount() {
+    console.log('did mount');
+    debugger;
+  }
+
+  componentWillUnmount() {
+    console.log('will Unmount');
+    debugger;
+  }
+
   render() {
     return (
       <div className='App'>
